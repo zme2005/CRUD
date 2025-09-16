@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="sec">
+        <form id="form">
+            <div>
+                <label for="productName">
+                    Product Name
+                </label>
+                <input type="text" id="productName" required>
+            </div>
+            <div>
+                <label for="productPrice">
+                    Price
+                </label>
+                <input type="number" id="productPrice">
+            </div>
+            <div>
+                <label for="productCategory">
+                    Category
+                </label>
+                <input type="text" id="productCategory">
+            </div>
+            <div>
+                <label for="productAmount">
+                    Amount
+                </label>
+                <input type="number" id="productAmount">
+            </div>
+            <div>
+                <label for="productDiscount">
+                    Discount
+                </label>
+                <input type="number" id="productDiscount">
+            </div>
+            <div>
+                <button id="btn" type="submit">Add Product</button>
+            </div>
+        </form>
+       <div class="container">
+        <select name="select" id="select">
+            <option value="1">Name</option>
+            <option value="2">Category</option>
+            <option value="3">Price</option>
+        </select>
+        <input type="text" placeholder="Search Products" id="search">
+        <table cellspacing="0" id="table">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Product Name</th>
+                    <th>Categoty</th>
+                    <th>Price</th>
+                    <th>Amount</th>
+                    <th>Discount</th>
+                    <th>Final Price</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Totall Of All Products</td>
+                    <td colspan="4" id="tf"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="noPro">
+            <p>No products added yet!</p>
+        </div>
+    </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
