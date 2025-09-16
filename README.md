@@ -27,6 +27,18 @@ Persistent Data → Products are saved in localStorage, so they remain after pag
 
 Responsive Design (CSS makes it look clean and usable on all devices).
 
+🔄 CRUD Operations
+
+This app demonstrates the four basic operations of persistent data management:
+
+Create → Add new products with details (name, price, category, amount, discount).
+
+Read → View all products in a dynamic table with real-time total & final price calculation.
+
+Update → Edit existing products and instantly refresh the data.
+
+Delete → Remove products permanently from the list and local storage.
+
 📂 Project Structure
 📦 Product-Management-App
 ├── index.html      # Main HTML file
